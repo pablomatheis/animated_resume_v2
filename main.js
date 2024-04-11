@@ -71,7 +71,7 @@ let resume = `# Pablo Matheis
 `
 
 let code_ready = `/*
- * 嗨，我是蔡嘉琳。
+ * Hello
  * 我想用代码给你展示一下我的个人简历～
  * 灵感来自：http://strml.net
  * 
