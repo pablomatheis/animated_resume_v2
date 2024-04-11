@@ -1,15 +1,17 @@
-let resume = `# 蔡嘉琳
-137xxxxxxxx | caijialinxx@foxmail.com | 北京/深圳/远程
-Github: https://github.com/Caijialinxx
-Blog: https://caijialinxx.github.io
-4年前端开发
+let resume = `# Pablo Matheis
+636 198 170 | pablomatheis@gmail.com 
+📍 Location: Málaga, Andalucía, Spain "the famous Costa del Sol".
+⏰ Age: 16 (Yes, I know, I look younger. It's the baby face charm.)
+🔥 Objective: To conquer the programming world one line of code at a time.
 
-## 专业技能
-- 近4年 React 及其相关库的开发经验，理解 Hooks 、虚拟 DOM 、 Diff 算法等原理。可使用 React Native / Vue 等框架开发。
-- 良好的编码习惯，如开发前做方案设计，注重组件化及模块化，擅长并严格执行 CodeReview 等。有较好的问题分析、解决能力。
-- 熟练使用 HTML5 / CSS3 / JavaScript ，常用 TypeScript 进行开发。能够高保真还原设计稿。
-- 擅用 Git 命令进行代码仓库协同⼯作，如处理代码冲突、提交管理、分支管理等。
-- Webpack 构建项⽬的经验，了解常⽤的资源管理、插件、缓存等的使⽤。
+
+## Professional Highlights:
+- Developed my first "real" project at the tender age of 14 (a python one)- a Duolingo bot that earned me not just French points but also some serious 💸💸 from my classmates. Merci beaucoup 🥐!
+- Jumped into the wild world of freelancing on Fiverr, where I earned some cash and bought my first macbook air (yes, mac is better than windows 💪).
+- Expanded my coding toolkit to include HTML, CSS, and JavaScript for web development.
+- Learned C# for Unity and C++ for Unreal Engine 5 because why settle for one game engine when you can conquer them all? 👾
+- Worked at [Tupl](https://tupl.com), [ParatyTech](https://paratytech.com) and [DataSeekers](https://dataseekers.com)
+- Tried my hand at entrepreneurship with my first startup, betpuppet.com. It may have failed miserably, but hey, at least the website is still up! (Feel free to visit and mourn its glorious downfall.)
 
 ## 工作经历
 ### 中国平安人寿保险股份有限公司
