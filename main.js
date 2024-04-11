@@ -28,17 +28,19 @@ let resume = `# Pablo Matheis
 ### Skills:
 2020 - Present
 - Fluent in Spanish and English.
-- Software development:
-    1. Python
-    2. HTML / CSS
-    3. JavaScript
-    4. C#
-    5. C++
+- Python
+- HTML / CSS
+- JavaScript
+- C#
+- C++
+- Chess (debatable)
+- Poker (also debatable)
+- Driving (definitely non debatable)
 
 ### Special Mentions:
 The heroes
 - My laptop, who has been my loyal companion through countless lines of code and late-night debugging sessions.
-- The infinites cups of coffee that fuel my coding adventures. Without you, I'd probably be asleep right now.
+- The infinite cups of coffee that fuel my coding adventures. Without you, I'd probably be asleep right now.
 `
 
 
