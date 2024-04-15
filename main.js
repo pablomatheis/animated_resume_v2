@@ -323,17 +323,13 @@ function structureResume() {
   $('#paper')[0].innerHTML = marked(resume)
   $('#paper').prepend('<div id="information"></div>', '<div id="skills"></div>', '<div id="jobs"></div>', '<div id="works"></div>', '<div id="education"></div>')
   
-  // 「基本信息」
   $('#information').append($('h1'), $('p').first())
 
-  // 「专业技能」
   const skills_header = $('h2:contains("技能")')
   $('#skills').append(skills_header, skills_header.next('ul')[0])
 
-  // 「教育经历」
   $('#education').append($('h2:contains("教育")'), $('<div class="single"></div>').append($('h3:contains("学院")'), $('p').last(), $('ul').last()))
 
-  // 「工作经历」
   $('#jobs').append($('h2:contains("工作")'))
   $('h3:contains("公司")').each((index, element) => {
     $('<div class="single"></div>')
@@ -341,7 +337,6 @@ function structureResume() {
       .appendTo('#jobs')
   })
 
-  // 「项目经验」模块
   $('#works').append($('h2:contains("项目")'))
   const project_title_array = $('#paper > h3')    // 剩余的h3就是项目名
   project_title_array.each((index, element) => {
@@ -350,8 +345,6 @@ function structureResume() {
       .appendTo('#works')
   })
 
-  // 「小程序」
-  // $('a[href="./images/qrcode.png"]').addClass('qrcode-trigger').append($('img.qrcode'))
 }
 function addAndAdjustAvatar() {
   return new Promise(resolve => {
