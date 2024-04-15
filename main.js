@@ -45,8 +45,9 @@ The heroes
 
 
 let code_ready = `/*
- * Hello
+ * Hello, my name is Pablo
  * I want to show you my personal resume using code...
+ * Inspired by http://strml.net
  * 
  * 
  * So, here we go!
@@ -56,7 +57,7 @@ let code_ready = `/*
 * {
   transition: all 0.3s;
 }
-/* Add a background colo */
+/* Add a background color */
 body {
   background: #455A64;
 }
@@ -322,7 +323,7 @@ function adjustResume() {
 function structureResume() {
   $('#paper')[0].innerHTML = marked(resume)
   $('#paper').prepend('<div id="information"></div>', '<div id="skills"></div>', '<div id="jobs"></div>', '<div id="works"></div>', '<div id="education"></div>')
-  
+
   $('#information').append($('h1'), $('p').first())
 
   const skills_header = $('h2:contains("技能")')
@@ -338,7 +339,7 @@ function structureResume() {
   })
 
   $('#works').append($('h2:contains("项目")'))
-  const project_title_array = $('#paper > h3')    // 剩余的h3就是项目名
+  const project_title_array = $('#paper > h3')
   project_title_array.each((index, element) => {
     $('<div class="single"></div>')
       .append($(element), $(element).next('p')[0], $(element).next('p').next('ul')[0])
