@@ -1,7 +1,7 @@
 let resume = `# Pablo Matheis
 636 198 170 | pablomatheis@gmail.com | Software Dev
 📍 Location: Málaga, Andalucía, Spain "the famous Costa del Sol".
-⏰ Age: 16 (Yes, I know, I look younger. It's the baby face charm.)
+⏰ Born: 2007.
 🔥 Objective: To conquer the programming world one line of code at a time.
 
 
