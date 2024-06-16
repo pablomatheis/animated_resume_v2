@@ -235,7 +235,7 @@ $('#speed_btn').click(() => {
     case 1:
       speed_status.innerText = '🚲'
       description.innerText = 'Slow mode animation'
-      duration = 50
+      duration = 40
       break
     case 2:
       speed_status.innerText = '🚗'
