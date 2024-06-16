@@ -225,7 +225,7 @@ writeCode(code_ready, '').then(() => {
   })
 })
 
-var speedCode = 1, duration = 50
+var speedCode = 1, duration = 30
 $('#speed_btn').click(() => {
   speedCode += 1
   if (speedCode > 3) {
@@ -235,7 +235,7 @@ $('#speed_btn').click(() => {
     case 1:
       speed_status.innerText = '🚲'
       description.innerText = 'Slow mode animation'
-      duration = 40
+      duration = 30
       break
     case 2:
       speed_status.innerText = '🚗'
